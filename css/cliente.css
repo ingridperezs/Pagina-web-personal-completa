@@ -1,0 +1,150 @@
+:root {
+    --azul:#7EACB5;
+    --morado: rgb(215, 195, 241);
+    --verdeo: #d38e8e;
+    --verdem: #d38e8e;
+    --verdec: rgb(189, 232, 202);
+    --moradoo:rgb(100, 93, 117);
+    --rosao:rgb(198, 143, 230);
+    --rosa:rgb(145, 16, 16);
+}
+body {
+    font-size: 62.5%;
+}
+
+h1 {
+    color: var(--verdeo) !important;
+    font-size: 3.5rem !important;
+    text-align: center !important;
+  }
+
+  span {
+    color: var(--verdem) !important;
+    font-size: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+  
+  a:hover h1, a:hover h1 span {
+    color: var(--azul) !important;
+  }
+  
+    h2 {    
+      text-align: center;
+      color: var(--moradoo);
+      margin: 0;
+      text-align: center;
+    }
+
+    h3 {    
+        text-align: center;
+        color: var(--moradoo);
+        margin: 0;
+        font-size: 2rem;  
+      }
+
+.header{
+    background-color: var(--azul);
+    width: 50rem;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+.imagen{
+    width: 15%;
+}
+
+.header-1{
+    margin-left: 0.5rem;
+    font-size: 2.75rem;
+    color: var(--morado);
+}
+
+fieldset {
+    width: 70rem;
+    margin: 0 auto;
+    border: none;    
+}
+
+.campos {
+    width: 70rem;
+    margin: 0 auto;
+    background-color: var(--verdem);
+    padding: 1.5rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+
+legend {
+    text-transform: uppercase;
+    background-color: var(--verdeo);
+    font-size: 1.25rem;
+    padding: 0.5rem 2.75rem;
+    
+}
+
+.pad-legend {
+    color: var(--rosa);    
+    text-transform: uppercase;
+    background-color: var(--moradoo);
+    font-size: 1.25rem;
+    padding: 0.5rem 2.75rem;
+    
+}
+
+.input-text {
+    width: 100%;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid var(--verdec) 1.75px;
+}
+
+.etiqueta {
+    font-size: 1.25rem;
+}
+
+.main {
+    width: 90rem;
+    margin: 0 auto;
+    background-color: var(--moradoo);
+    padding: 3rem 0 4rem 0;
+}
+
+.boton-margin{
+    width: 75rem;
+    margin: 1.5rem auto 0 auto;
+    text-align: right;
+}
+
+.boton {
+    background-color: var(--rosao);
+    font-size: 1.25rem;
+    padding: 0.25rem .85rem;
+    border: none;
+    text-transform: uppercase;
+    color: var(--rosa);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: var(--moradoo);
+    border: solid var(--verdec) 1.25px;
+}
+
+.mi-table tbody tr:hover {
+    background-color: var(--moradoo) !important;
+    color: var(--rosa) !important;
+}

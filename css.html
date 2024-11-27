@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox y Grid</title>
+    <link rel="icon" type="image/x-icon" href="/img/css.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/CSS.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<a href="./index.html"><h1>Ingrid Carolina Perez Salas<span style="color: rgb(27, 43, 133);"> Estudiante de Ingeniería en Computación</span></h1></a>
+<header class="encabezado">
+    <h1 class="header-1" style="color: rgb(79, 94, 180);">Prácticas de formato CSS</h1>
+    <img src="./img/css.png" alt="Contacto" class="img-encabezado">
+</header>
+<main class="contenedor">
+    <h2 class="head-2">Ejemplo CSS 1: Tablas de precios</h2>
+    <div class="price-table-container">
+        <div class="table">
+          <div class="title">Startup Plan</div>
+          <div class="price">
+            <span class="currency">$</span>
+            <span class="number">69</span>
+            <span class="frequency">/mo</span>
+          </div>
+          <div class="features">
+            <ul>
+              <li>
+                <span class="material-icons check_circle"> check_circle </span
+                >Easy access
+              </li>
+              <li>
+                <span class="material-icons check_circle"> check_circle </span
+                >Easy access
+              </li>
+              <li>
+                <span class="material-icons check_circle"> check_circle </span
+                >Easy access
+              </li>
+              <li>
+                <span class="material-icons check_circle"> check_circle </span
+                >Easy access
+              </li>
+              <li>
+                <span class="material-icons check_circle"> check_circle </span
+                >Easy access
+              </li>
+            </ul>
+          </div>
+          <div class="actions">
+            <a href="#" class="btn">Try for free</a>
+          </div>
+        </div>
+  
+        <div class="table recommended">
+          <div class="title">Pro Agent</div>
+          <div class="price">
+            <span class="currency">$</span>
+            <span class="number">69</span>
+            <span class="frequency">/mo</span>
+          </div>
+          <div class="features">
+            <ul>
+              <li>Billed anually</li>
+              <li>Billed anually</li>
+              <li>Billed anually</li>
+              <li>Billed anually</li>
+            </ul>
+          </div>
+          <div class="actions">
+            <a href="#" class="btn recommended">Try for free</a>
+          </div>
+        </div>
+        <div class="table">
+          <div class="title">Enterprise</div>
+          <div class="price">
+            <span class="currency">$</span>
+            <span class="number">69</span>
+            <span class="frequency">/mo</span>
+          </div>
+          <div class="features">
+            <ul>
+              <li>Billed anually</li>
+              <li>Billed anually</li>
+            </ul>
+          </div>
+          <div class="actions">
+            <a href="#" class="btn">Try for free</a>
+          </div>
+        </div>
+      </div>
+      <h2 class="head-2">Ejemplo CSS 2: Barra de progreso circular</h2>
+      <div class="progressbar-container">
+        <div class="outer-box">
+          <div class="inner-box">50%</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="200"
+            height="200"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="0%" stop-color="#e91e63" />
+                <stop offset="100%" stop-color="#673ab7" />
+              </linearGradient>
+            </defs>
+            <circle cx="100" cy="100" r="80" stroke-linecap="round" />
+          </svg>
+        </div>
+      </div>
+      <h2 class="head-2">Ejemplo CSS 3:Notificaciones animadas</h2>
+      <div class="notification">
+        <div class="count">29</div>
+        <span class="material-icons">notifications</span>
+      </div>
+      <h2 class="head-2">Ejemplo CSS 4:Slider</h2>
+      <div class="slider-container">
+        <div class="slider-viewport">
+          <div class="slide" id="slide1">1</div>
+          <div class="slide" id="slide2">2</div>
+          <div class="slide" id="slide3">3</div>
+          <div class="slide" id="slide4">4</div>
+          <div class="slide" id="slide5">5</div>
+      </div>
+        <div class="links">
+          <a href="#slide1">1</a>
+          <a href="#slide2">2</a>
+          <a href="#slide3">3</a>
+          <a href="#slide4">4</a>
+          <a href="#slide5">5</a>
+        </div>
+      </div>
+      <h2 class="head-2">Ejemplo CSS 5:Barra de búsqueda</h2>
+      <div class="search-bar">
+        <input type="text" />
+        <div class="actions">
+          <button><span class="material-icons"> mic </span></button>
+          <button><span class="material-icons"> document_scanner </span></button>
+          <button>
+            <span class="material-icons"> search </span>
+          </button>
+        </div>
+      </div>
+      <h2 class="head-2">Ejemplo CSS 6:Tarjetas animadas</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="header">
+            <div class="date">24 de febrero</div>
+            <div class="title">Ejemplo tarjetas</div>
+          </div>
+          <div class="footer">
+            <div class="author">
+              <a href="#">
+                <img src="./img/perro.jpeg" alt="" />
+                <span>Ingrid Perez</span>
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card element-1">
+          <div class="header">
+            <div class="date">24 de febrero de 2022</div>
+            <div class="title">Ejemplo tarjetas</div>
+          </div>
+          <div class="footer">
+            <div class="author">
+              <a href="#">
+                <img src="./img/perro.jpeg" alt="" />
+                <span>Ingrid Perez</span>
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card element-2">
+          <div class="header">
+            <div class="date">24 de febrero de 2022</div>
+            <div class="title">Ejemplo tarjetas</div>
+          </div>
+          <div class="footer">
+            <div class="author">
+              <a href="#">
+                <img src="./img/perro.jpeg" alt="" />
+                <span>Ingrid Perez</span>
+              </a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card element-3">
+          <div class="header">
+            <div class="date">24 de febrero de 2022</div>
+            <div class="title">Ejemplo tarjetas</div>
+          </div>
+          <div class="footer">
+            <div class="author">
+              <a href="#">
+                <img src="./img/perro.jpeg" alt="" />
+                <span>Ingrid Perez</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="head-2">Ejemplo CSS 7: Galería de imágenes</h2>
+      <div class="gallery">
+        <a target="_blank" href="./img/paris.jpg">
+          <img src="./img/paris.jpg" alt="Paris" width="600" height="400">
+        </a>
+        <div class="desc">Paris</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="./img/japon.jpg">
+          <img src="./img/japon.jpg" alt="Japon" width="600" height="400">
+        </a>
+        <div class="desc">Japon</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="./img/mexico.jpg">
+          <img src="./img/mexico.jpg" alt="Mexico" width="600" height="400">
+        </a>
+        <div class="desc">Mexico</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="./img/italia.jpg">
+          <img src="./img/italia.jpg" alt="Italia" width="600" height="400">
+        </a>
+        <div class="desc">Italia</div>
+      </div>
+      <h2 class="head-2">Ejemplo CSS 8: Checkboxes y radio buttons</h2>
+      <label class="checkbox-container"
+      >Soy un checkbox
+      <input type="checkbox" name="" id=""/>
+      <span class="checkmark">
+        <span class="material-icons">check</span>
+      </span>
+    </label>
+
+    <label class="checkbox-container"
+      >Soy un radio button
+      <input type="radio" name="a" id="" />
+      <span class="checkmark radio">
+        <div class="circle"></div>
+      </span>
+    </label>
+    <label class="checkbox-container"
+      >Soy un radio button
+      <input type="radio" name="a" id="" />
+      <span class="checkmark radio">
+        <div class="circle"></div>
+      </span>
+    </label>
+    <h2 class="head-2">Ejemplo CSS 9: UI para subir archivos</h2>
+    <div class="upload-container">
+        <div class="title">UPLOAD FILES</div>
+        <div class="description">
+          Upload the files you want to share with your team
+        </div>
+        <div class="drag-drop">
+          <div class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 0 24 24"
+              width="24px"
+              fill="#000000"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3zM8 13h2.55v3h2.9v-3H16l-4-4z"
+              />
+            </svg>
+          </div>
+          <div>Drag and Drop the files here <br />Or</div>
+          <button class="btn">Browse Files</button>
+        </div>
+  
+        <div class="title-section">UPLOADED FILES</div>
+        <div class="uploaded-files">
+          <div class="file">
+            <div class="icon">
+              <img src="./img/word icon.png" width="48" alt="" />
+            </div>
+            <div class="title">
+              <div class="name">Portfolio in english.pdf</div>
+              <div class="progress">
+                <div class="progress-60"></div>
+              </div>
+            </div>
+            <div class="actions">
+              <button>X</button>
+            </div>
+          </div>
+  
+          <div class="file">
+            <div class="icon">
+              <img src="./img/word icon.png" width="48" alt="" />
+            </div>
+            <div class="title">
+              <span class="name">Portfolio in english.pdf</span>
+              <div class="size">60 Kb</div>
+            </div>
+            <div class="actions">
+              <button>X</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="head-2">Ejemplo CSS 10: Widget de clima</h2>
+      <div class="weather-container">
+        <div class="current">
+          <div class="city">Mexico City</div>
+          <div class="day">Now</div>
+          <div class="row">
+            <div class="icon">
+              <img src="./img/cloudy.png" alt="" width="128" />
+            </div>
+            <div class="info">
+              <div class="temperature">
+                <span class="temperature-now">20°</span>
+                <span class="temperature-low">/17°</span>
+              </div>
+              <div class="status">Partially Cloudy</div>
+            </div>
+          </div>
+          <div class="more">
+            <div class="item">
+              <div class="icon">
+                <span class="material-icons"> water_drop </span>
+              </div>
+              <div class="text">
+                <div class="value">9 Km/h</div>
+                <div class="type">Wind</div>
+              </div>
+            </div>
+  
+            <div class="item">
+              <div class="icon">
+                <span class="material-icons"> air </span>
+              </div>
+              <div class="text">
+                <div class="value">93%</div>
+                <div class="type">Changes of rain</div>
+              </div>
+            </div>
+  
+            <div class="item">
+              <div class="icon">
+                <span class="material-icons"> water </span>
+              </div>
+              <div class="text">
+                <div class="value">31%</div>
+                <div class="type">Humidity</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="list">
+          <div class="day">
+            <div class="name">Mon</div>
+            <div class="weather">
+              <div class="icon">
+                <span class="material-icons"> wb_cloudy </span>
+              </div>
+              <div class="status">Cloudy</div>
+            </div>
+            <div class="temperature">
+              <span class="temperature-high">20°</span>
+              <span class="temperature-low">14°</span>
+            </div>
+          </div>
+  
+          <div class="day">
+            <div class="name">Tue</div>
+            <div class="weather">
+              <div class="icon">
+                <span class="material-icons"> ac_unit </span>
+              </div>
+              <div class="status">Snow</div>
+            </div>
+            <div class="temperature">
+              <span class="temperature-high">2°</span>
+              <span class="temperature-low">-5°</span>
+            </div>
+          </div>
+  
+          <div class="day">
+            <div class="name">Wed</div>
+            <div class="weather">
+              <div class="icon">
+                <span class="material-icons"> thunderstorm </span>
+              </div>
+              <div class="status">Thunder storm</div>
+            </div>
+            <div class="temperature">
+              <span class="temperature-high">15°</span>
+              <span class="temperature-low">14°</span>
+            </div>
+          </div>
+  
+          <div class="day">
+            <div class="name">Thu</div>
+            <div class="weather">
+              <div class="icon">
+                <span class="material-icons"> wb_twilight </span>
+              </div>
+              <div class="status">Partially sunny</div>
+            </div>
+            <div class="temperature">
+              <span class="temperature-high">18°</span>
+              <span class="temperature-low">17°</span>
+            </div>
+          </div>
+  
+          <div class="day">
+            <div class="name">Fri</div>
+            <div class="weather">
+              <div class="icon">
+                <span class="material-icons"> wb_sunny </span>
+              </div>
+              <div class="status">Sunny</div>
+            </div>
+            <div class="temperature">
+              <span class="temperature-high">25°</span>
+              <span class="temperature-low">10°</span>
+            </div>
+          </div>
+        </div>
+      </div>
+</main>
+<footer>
+    Todos los derechor reservados - Ingrid Carolina Perez Salas
+</footer>
+</body>
+</html>

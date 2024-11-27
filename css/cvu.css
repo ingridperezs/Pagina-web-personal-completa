@@ -1,0 +1,43 @@
+:root{
+    /* https://colorhunt.co/palettes/dark */
+      --verdeo: rgb(13, 124, 102);
+      --verdem: rgb(65, 179, 162);
+      --verdec: rgb(189, 232, 202);
+      --morado: rgb(215, 195, 241);
+      --azul:rgb(18, 48, 174);
+      --moradoo:rgb(108, 72, 197);
+      --rosao:rgb(198, 143, 230);
+      --rosa:rgb(255, 247, 247);
+  }
+h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif;
+  }
+  h1 {
+    color: var(--verdeo) !important;
+    font-size: 3.5rem !important;
+    text-align: center !important;
+  }
+
+  span {
+    color: var(--verdem) !important;
+    font-size: 1.5rem !important;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+  
+  a:hover h1, a:hover h1 span {
+    color: var(--azul) !important;
+  }
+  p {
+    text-align: justify;
+  }
+
+  footer {
+    width: 120rem;
+    margin: 3rem auto;
+    text-align: right;
+    color: var(--verdeo);
+    font-weight: 700;
+  }
